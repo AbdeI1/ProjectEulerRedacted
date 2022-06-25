@@ -7,9 +7,6 @@ if(ansElement) {
   let button = document.createElement("button")
   button.innerHTML = "Show Answer"
   button.type = "button"
-  function test() {
-    console.log("testing")
-  }
   button.addEventListener("click", function() { 
     ansElement.style.color = ""
     ansElement.innerHTML = ans
