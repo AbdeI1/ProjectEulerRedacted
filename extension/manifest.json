@@ -2,6 +2,10 @@
   "manifest_version": 3,
   "version": "0.1",
   "name": "Project Euler Redacted",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "description": "a simple quality of life change for Project Euler that hides answers for completed problems",
   "action": {
     "default_popup": "index.html",
     "default_icon": "icon128.png"

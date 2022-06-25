@@ -1,6 +1,6 @@
-var ansElement = document.getElementsByClassName("strong")[0]
+var ansElement = document.getElementById("problem_answer").children[0].children[0].children[0].children[0]
 
-if(ansElement) {
+if(ansElement && ansElement.className == 'strong') {
   const ans = ansElement.innerHTML
   ansElement.innerHTML = "REDACTED"
   ansElement.style.color = "red"
